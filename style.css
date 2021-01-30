@@ -91,7 +91,7 @@ nav img{
 
 
 .banner{
-    background: url(./image/img0.jpg) no-repeat center;
+    background: url(img0.jpg) no-repeat center;
     -webkit-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
@@ -136,7 +136,7 @@ button:hover{
 }
 
 .info{
-    background: url(./image/petrole_0.jpg) no-repeat center;
+    background: url(petrole_0.jpg) no-repeat center;
     -webkit-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
@@ -218,7 +218,7 @@ button:hover{
 }
 
 .Savoir-plus{
-    background: url(./image/info.jpg) no-repeat center;
+    background: url(info.jpg) no-repeat center;
     -webkit-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
@@ -384,7 +384,7 @@ footer h6{
     background-color: rgba(0, 0, 0, 0.226);
 }
 .inscription{
-    background: url(./image/inscr.jpeg) no-repeat center;
+    background: url(inscr.jpeg) no-repeat center;
     -webkit-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
@@ -632,7 +632,7 @@ padding: 0 10%;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: url(./image/contactus.jpeg) no-repeat;
+    background: url(contactus.jpeg) no-repeat;
     background-size: cover;
     display:flex;
     justify-content:center;
@@ -758,7 +758,7 @@ align-items: center;
  .merci{
 
 
- background: url(./image/merci.jpeg) no-repeat center;
+ background: url(merci.jpeg) no-repeat center;
     -webkit-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
