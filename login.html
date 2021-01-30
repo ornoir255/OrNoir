@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="java.js"></script>
+</head>
+<body class="inscription">
+    <script src="login.js"></script>
+        
+        <div class="header">
+            <div class="logo"><div class="f-center"> 
+   </div>
+</div>
+</div>
+    
+       <section class="contain">
+        <div class="login">
+            <h3>Login</h3>
+            <div id="error"></div>
+            <form class="form" method="post" name="form" onsubmit="return required()">
+                <input type="text" class="input" placeholder="Your Name" autocomplete="none" name="nom" id="nom">
+                
+                
+                <input type="password" class="input" placeholder="Your Password" autocomplete="none" name="password" id="password">
+                
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </secion>
+    
+</body>
+</html>

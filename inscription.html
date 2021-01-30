@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscription</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="java.js"></script>
+
+</head>
+<body>
+	<script src="script.js"></script>
+	 <article class="inscription">
+             <div class="regform"><h1><a name="Inscrivez-vous"></a> Formulaire d'inscription</h1></div>
+             <div class="main">
+
+             <form name="form" method="post" action="traitement.html" onsubmit = "return !!( requiredElement() & validateForm() ) ">
+            
+                <div id="na">
+                  <h2 class="name">Nom Complet </h2>
+
+                  <input class="firstname" type="text" name="nom" id="nom" onchange="nomValidate()"><br>
+                <label class="firstlabel">Nom</label>
+                <input class ="lastname" type="text" name="prenom" id="prenom" onchange="prenomValidate()">
+                <label class="lastlabel">Prénom</label></div>
+                <h2 class="name"> Date de naissance </h2>
+                <input class="date" type="date" name="date" id="date" >
+                <h2 class="name"> Mail</h2>
+                <input class="email"type="email" name="email" id="email" onchange="validateEmail(email)">
+                <h2 class="name"> Mot de passe</h2>
+                <input class="code" type="password" name="password" id="password">
+            
+                <h2 class="name">Votre pays </h2>
+                <select class="pays" name="pays" id="pays" >
+                     <option disabled="disabled" selected="selected">Votre pays</option>
+                     <option>Maroc</option>
+                     <option>France</option>
+                     <option >Bélgique</option>
+                     <option>Espagne</option>
+                     <option >Algérie</option>
+                     <option >Autre</option>
+                     </select>
+                     <h2 class="name">Vous êtes?</h2>
+            
+                <label class="radio">
+                <input class="radio-one" type="radio" checked="checked" name="sexe" id="sexe" >
+                <span class="checkmark"></span>
+            Homme </label>
+                
+                <label class="radio">
+                <input type="radio" name="sexe" id="sexe" checked="checked" class="radio-two">
+                 <span class="checkmark"></span>
+            Femme </label>
+
+            <button class="envoi" type="submit">Envoyer</button>
+            
+      </form>
+      </div>
+      </article>
+
+
+</body>
+</html>
